@@ -1,7 +1,7 @@
 "use strict";
 
 const express = require("express");
-const {Movie} = require("../../models");
+const {Movie} = require("../models");
 const { getListMovies, addMovie, checkExistMovieById, deleteMovieById } = require("../services/movies");
 const movieRouter = express.Router();
 movieRouter.get('/',async (req, res)=>{

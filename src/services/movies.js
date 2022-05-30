@@ -1,6 +1,6 @@
 "use strict";
 
-const {Movie} = require("../../models");
+const {Movie} = require("../models");
 
 const getListMovies = async ()=>{
     try {
