@@ -1,18 +1,20 @@
 const config ={
-    development:{
-        user: 'root',
-        password:'goodjob@349',
-        database: 'moviebe',
-        host: '127.0.0.1',
-        dialect: 'mysql',
-    },
+    development: {
+        username: "root",
+        password: "goodjob@349",
+        database: "moviebe",
+        host: "127.0.0.1",
+        dialect: "mysql"
+      },
     AUTH:{
-        SECRET_KEY: 'moviebe',
+        SECRET_KEY: "nodejs-20",
+
     },
     SYSTEM:{
-        PORT: 3000,
-        HOST: '',
-        DOMAIN:'http://localhost'
+        PORT:3000,
+        HOST:"",
+        DOMAIN: 'http://localhost:3000'
     }
-}
-module.exports = config;
+};
+
+module.exports=config;
