@@ -9,24 +9,31 @@ module.exports = {
         type: Sequelize.INTEGER
       },
       name: {
+        allowNull: false,
         type: Sequelize.STRING
       },
       nameCode: {
+        allowNull: false,
         type: Sequelize.STRING
       },
       trailer: {
+        allowNull: false,
         type: Sequelize.STRING
       },
       poster: {
+        allowNull: false,
         type: Sequelize.STRING
       },
       description: {
+        allowNull: false,
         type: Sequelize.STRING
       },
       startTime: {
+        allowNull: false,
         type: Sequelize.DATE
       },
       evaluate: {
+        allowNull: false,
         type: Sequelize.INTEGER
       },
       createdAt: {
